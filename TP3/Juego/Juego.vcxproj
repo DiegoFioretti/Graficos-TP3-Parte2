@@ -74,10 +74,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>($SolutionDir)allegro_5.1.12_x86\include;($SolutionDir)allegro_dependencies_x86\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)allegro_5.1.12_x86\include;$(SolutionDir)allegro_dependencies_x86\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>($SolutionDir)allegro_5.1.12_x86\lib;($SolutionDir)allegro_dependencies_x86\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)allegro_5.1.12_x86\lib;$(SolutionDir)allegro_dependencies_x86\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>allegro-debug.lib;allegro_main-debug.lib;allegro_image-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
